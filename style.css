@@ -1,12 +1,46 @@
-#hgf {
-    background-color: blue;
-    color: cadetblue;
-    margin-left: 100px;
-    font-size: 50px;
+body{
+    background-color: black;
 }
-#qwe{
-    background-color: burlywood;
-    color: cornflowerblue;
-    margin-top: 100px;
-    font-size: 40px;
+#ug{
+    background-color: aqua;
+    font-size: medium;
+    position: relative;
+    font-style: italic;
+    width: 600px;
+    float: right;
+    top: 200px;
+
+}
+#hs{
+    background-color: blueviolet;
+    background-size: cover;
+    font-size: larger;
+     font-style: italic ;
+     width: 600 px;
+     position: relative;
+     float: right;
+     top: 300px;
+     border: solid red 5px;
+     border-radius: 20px;
+}
+
+img{
+    position: relative;
+    top: 250px;
+    left: 50px;
+    z-index: 5;
+}
+img:hover{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+#hs:hover{
+    background-color: cadetblue;
+    cursor: grab;
+}
+form{
+    position: relative;
+    background-color: red;
+    z-index: 10;
 }
